@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794495034,
+        "narHash": "sha256-QG/HY0t5t3sfT2ozW/Ikis5Klqf0X4nfTuLvFaBpNno=",
+        "rev": "2074cc672349f14240fb7ea90d509e0b643e9dd4",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1118975.2074cc672349/nixexprs.tar.zst"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "signoz-src": "signoz-src"
+      }
+    },
+    "signoz-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794492337,
+        "narHash": "sha256-DHRivbMR8lPlkFRgrkPGklhlSJNRZ+bNzKfyhgSJbjA=",
+        "owner": "SigNoz",
+        "repo": "signoz-mcp-server",
+        "rev": "8bf026de71a91d395fbf72b4708d8e7fd3fc67de",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SigNoz",
+        "ref": "v0.19.0",
+        "repo": "signoz-mcp-server",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
