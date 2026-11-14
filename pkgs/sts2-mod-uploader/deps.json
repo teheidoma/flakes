@@ -1,0 +1,32 @@
+[
+  {
+    "pname": "Microsoft.AspNetCore.App.Ref",
+    "version": "8.0.31",
+    "hash": "sha256-vMnNfXlEkZq5fpys8z5SnCn9q/BYXLw+CXcEdGeD6hg="
+  },
+  {
+    "pname": "Microsoft.NET.ILLink.Tasks",
+    "version": "8.0.31",
+    "hash": "sha256-sq5bVfjBI+EPALp1mfVoH/bXSVe6otA6Gfe2y5ajtEY="
+  },
+  {
+    "pname": "Microsoft.NETCore.App.Host.linux-x64",
+    "version": "8.0.31",
+    "hash": "sha256-MGH8ZnjM4fZFp63mbLNpkojI2T7TvpvNgvpjOGfrTIE="
+  },
+  {
+    "pname": "Microsoft.NETCore.App.Ref",
+    "version": "8.0.31",
+    "hash": "sha256-oChiwq8Hnb0R+Fx61PlO1VMFUw4M8Gcd4nnxoSlPIMY="
+  },
+  {
+    "pname": "System.CommandLine",
+    "version": "3.0.0-preview.4.26230.115",
+    "hash": "sha256-vt9nod4RgunugrDnodpQMShYWABLQyDMgkJ3rsiWWF0="
+  },
+  {
+    "pname": "System.Memory",
+    "version": "4.5.5",
+    "hash": "sha256-EPQ9o1Kin7KzGI5O3U3PUQAZTItSbk9h/i4rViN3WiI="
+  }
+]

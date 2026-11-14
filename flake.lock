@@ -16,7 +16,8 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "signoz-src": "signoz-src"
+        "signoz-src": "signoz-src",
+        "sts2-mod-uploader-src": "sts2-mod-uploader-src"
       }
     },
     "signoz-src": {
@@ -33,6 +34,23 @@
         "owner": "SigNoz",
         "ref": "v0.19.0",
         "repo": "signoz-mcp-server",
+        "type": "github"
+      }
+    },
+    "sts2-mod-uploader-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782516111,
+        "narHash": "sha256-ROEKhg4jXbDuxzGUCbQs/3e2SBCZBJolsU7Y5FsCU0s=",
+        "owner": "megacrit",
+        "repo": "sts2-mod-uploader",
+        "rev": "4c4db1262cdce6a1c4550a494f2e1088dbeda346",
+        "type": "github"
+      },
+      "original": {
+        "owner": "megacrit",
+        "ref": "v0.2.0",
+        "repo": "sts2-mod-uploader",
         "type": "github"
       }
     }
